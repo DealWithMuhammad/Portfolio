@@ -18,9 +18,9 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center px-4 overflow-x-hidden">
       <Intro />
-      {/* <SectionDivider /> */}
+      <SectionDivider />
       {/* <About /> */}
-      {/* <Projects /> */}
+      <Projects />
       {/* <Skills /> */}
       {/* <Experience isMobile={isMobile} /> */}
       {/* <Contact /> */}
