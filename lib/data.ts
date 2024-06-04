@@ -6,6 +6,9 @@ import rubicGameImage from "@/public/2048-game.png";
 import breadditImage from "@/public/breaddit.png";
 import gameHubImage from "@/public/game-hub.png";
 import typingSpeedImage from "@/public/typing-speed.png";
+import refugeeActImage from "@/public/react.png"
+import emailImage from "@/public/email.png"
+import acternityImage from "@/public/acertnity.png"
 
 export const links = [
     {
@@ -93,38 +96,35 @@ export type ProjectTags = typeof projectsData[number]["tags"];
 
 export const projectsData = [
     {
-        title: "Typing Speed",
-        title_zh: '打字测验',
-        description:
-            "A comprehensive typing speed test application that tracks your overall typing performance. It provides detailed statistics, including total words typed, errors made, and accuracy rate, allowing users to monitor their progress and improve their typing efficiency.",
-        desc_zh: "一个打字速度测试应用。敲击即开始打字，计时结束后将显示总敲击单词数、正确率、错误率等。该应用UI简洁现代，支持Dark Mode切换。",
-        tags: ["React", "TypeScript", "Tailwind", 'Framer Motion'],
-        imageUrl: typingSpeedImage,
-        projectUrl: 'https://github.com/Codefreyy/typing-speed-game',
-        demoUrl: 'https://joy-typing-speed-game.vercel.app/',
+        title: "Refugee Action for Change",
+        title_zh: '',
+        description:"Developed Refugee Action for Change NGO's website utilizing Next.js technology. Focused on user friendly design and accessibility, ensuring information accessibility for all stakeholders. ",
+        desc_zh: "Developed Refugee Action for Change NGO's website utilizing Next.js technology. Focused on user friendly design and accessibility, ensuring information accessibility for all stakeholders. ",
+        tags: ["Next.Js", "TypeScript", "Tailwind", 'Chakra UI', "Firebase"],
+        imageUrl: refugeeActImage,
+        projectUrl: 'https://github.com/DealWithMuhammad/react-NGO',
+        demoUrl: 'https://www.reactmalaysia.org/',
     },
     {
-        title: "Game Hub",
+        title: "Palazzo Altura",
         title_zh: '游戏枢纽站',
-        description: "A responsive game grid application that offers search and filter functionality, and features infinite scrolling using React Query. It also includes robust form validation with Zod and efficient state management with Zustand.",
+        description:'Developed a contemporary user interface (UI) with animations utilizing Framer Motion and Aeternity UI for a client website built on Next.js.',
         desc_zh: "响应式游戏网格，支持搜索和过滤，使用react query实现无限滚动，使用Zod进行表单验证，Zustand进行状态管理。",
-        tags: ["React", "TypeScript", "Zod", "React Query", "Chakra UI"],
-        imageUrl: gameHubImage,
-        projectUrl: 'https://github.com/Codefreyy/New-Game-hub',
-        demoUrl: 'https://new-game-hub.vercel.app/',
+        tags: ["Next.js", "TypeScript", "Framer Motion", "Aeternity UI", "Chakra UI"],
+        imageUrl: acternityImage,
+        projectUrl: 'https://github.com/DealWithMuhammad/palazzo-altura',
+        demoUrl: 'https://palazzo-altura.vercel.app/',
 
 
     },
     {
-        title: "Breaddit",
+        title: "Py-gmail Automation",
         title_zh: "社交新闻论坛",
-        description:
-            `A modern full-stack Reddit clone features infinite scrolling, secure authentication via NextAuth and Google, and a custom feed for authenticated users. It utilizes Upstash Redis for advanced caching and React-Query for efficient data fetching, ensuring a responsive and user-friendly experience with optimistic updates.
-            `,
+        description: 'Automate Interac e-Transfer extraction from Gmail using Python. Retrieve details, process, and store in a MariaDB database. Simple setup and usage. Efficient tracking of Interac transactions.',
         desc_zh: "一个现代化的全栈Reddit克隆",
-        tags: ["JavaScript", "HTML", "CSS3"],
-        imageUrl: breadditImage,
-        projectUrl: 'https://github.com/Codefreyy/Breaddit',
+        tags: ["Python", "Py Mail"],
+        imageUrl: emailImage,
+        projectUrl: 'https://github.com/DealWithMuhammad/gmail-interac-transfer-automation',
         demoUrl: '',
     },
 
