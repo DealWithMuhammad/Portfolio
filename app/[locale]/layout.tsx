@@ -34,7 +34,7 @@ export default function RootLayout({
             <ActionSectionContextProvider>
               <Header />
               {children}
-              {/* <Footer /> */}
+              <Footer />
               <WidgetWrapper>
                 <ThemeSwitch />
               </WidgetWrapper>
