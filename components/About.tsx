@@ -1,16 +1,16 @@
-"use client"
+"use client";
 
-import React from "react"
-import { motion } from "framer-motion"
-import SectionHeading from "./SectionHeading"
-import { useSectionInView } from "@/lib/hooks"
-import { useLocale, useTranslations } from "next-intl"
+import React from "react";
+import { motion } from "framer-motion";
+import SectionHeading from "./SectionHeading";
+import { useSectionInView } from "@/lib/hooks";
+import { useLocale, useTranslations } from "next-intl";
 
 export default function About() {
-  const { ref } = useSectionInView("About")
-  const t = useTranslations("AboutSection")
-  const sectionLan = useTranslations("SectionName")
-  const activeLocale = useLocale()
+  const { ref } = useSectionInView("About");
+  const t = useTranslations("AboutSection");
+  const sectionLan = useTranslations("SectionName");
+  const activeLocale = useLocale();
 
   return (
     <motion.section
@@ -43,7 +43,7 @@ export default function About() {
             As a freshman, I got my feet wet with the basics of computer
             science, databases, and Python. But what truly sparked my passion
             was a course on semantic publishing—there, I used HTML and CSS to
-            create a webpage dedicated to my favorite figure skater, {" "}
+            create a webpage dedicated to my favorite figure skater,{" "}
             <a
               href="https://en.wikipedia.org/wiki/Yuzuru_Hanyu"
               target="_blank"
@@ -84,8 +84,11 @@ export default function About() {
             </span>
             I thrive on programming challenges and enjoy working with teams to
             solve complex problems. I specialize in technologies such as
-            <span className="font-medium italic"> React, Next.js and Vue</span>,
-            and have a solid understanding of{" "}
+            <span className="font-medium italic">
+              {" "}
+              React, React Naitve and Next.js
+            </span>
+            , and have a solid understanding of{" "}
             <span className="font-medium italic">
               JavaScript, TypeScript and HTML/CSS
             </span>
@@ -106,5 +109,5 @@ export default function About() {
         </>
       )}
     </motion.section>
-  )
+  );
 }

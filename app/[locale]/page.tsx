@@ -21,7 +21,7 @@ export default function Home() {
       <SectionDivider />
       {/* <About /> */}
       <Projects />
-      {/* <Skills /> */}
+      <Skills />
       {/* <Experience isMobile={isMobile} /> */}
       {/* <Contact /> */}
     </main>

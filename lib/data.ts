@@ -137,19 +137,14 @@ export const skillsData = [
     "JavaScript",
     "TypeScript",
     "React",
+    "React Native",
     "Next",
-    "Vue2",
-    "Vue3",
-    "Node",
-    "Express",
     "Git",
     "Github",
     "Tailwind",
     "Chakra UI",
     "Boostrap",
-    "Prisma",
-    "MongoDB",
+    "Firebase",
     "Framer Motion",
-    "d3",
-    "UI/UX"
+    "Wordpress"
 ] 
