@@ -43,12 +43,21 @@ export default function About() {
             </span>
           </p>
           <p className="mb-3">
-            I created my first project, which involved uploading all the school
+            The first project I started working on was to upload all the school
             books so that students who didn&#39;t have the books could access
             them on my website. One of my friends told me that I had done a
             great job, which gave me more motivation and increased my interest
-            in the field of programming and I also sharpened my front-end
-            development skills.
+            in the field of programming because I like to help others, so it was
+            one of the thing that If I learn it I can solve problems of others.
+          </p>
+          <p className="mb-3">
+            {" "}
+            Then, I created a courier website for a client who really liked my
+            work I don't know how because now when I see it it's like one of the
+            worst website I've ever made lmao. Anyway, that client suggested me
+            that I should learn React. I started learning React on my own from
+            YouTube. It's been over two years now, and I'm still in the field of
+            programming.
           </p>
           <p className="mb-3">
             I recently joined{" "}
