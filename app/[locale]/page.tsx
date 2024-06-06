@@ -22,7 +22,7 @@ export default function Home() {
       {/* <About /> */}
       <Projects />
       <Skills />
-      {/* <Experience isMobile={isMobile} /> */}
+      <Experience isMobile={isMobile} />
       {/* <Contact /> */}
     </main>
   );

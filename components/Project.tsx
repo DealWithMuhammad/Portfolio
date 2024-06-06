@@ -1,15 +1,15 @@
-"use client"
+"use client";
 
-import { useRef } from "react"
-import { projectsData } from "@/lib/data"
-import Image from "next/image"
-import { motion, useScroll, useTransform } from "framer-motion"
-import { FaGithubSquare } from "react-icons/fa"
-import Link from "next/link"
-import { FiExternalLink } from "react-icons/fi"
-import { useLocale } from "next-intl"
+import { useRef } from "react";
+import { projectsData } from "@/lib/data";
+import Image from "next/image";
+import { motion, useScroll, useTransform } from "framer-motion";
+import { FaGithubSquare } from "react-icons/fa";
+import Link from "next/link";
+import { FiExternalLink } from "react-icons/fi";
+import { useLocale } from "next-intl";
 
-type ProjectProps = (typeof projectsData)[number]
+type ProjectProps = (typeof projectsData)[number];
 
 export default function Project({
   title,
@@ -21,14 +21,14 @@ export default function Project({
   projectUrl,
   demoUrl,
 }: ProjectProps) {
-  const ref = useRef<HTMLDivElement>(null)
+  const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["0 1", "1.33 1"],
-  })
-  const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1])
-  const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1])
-  const activeLocale = useLocale()
+  });
+  const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
+  const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
+  const activeLocale = useLocale();
 
   return (
     <motion.div
@@ -89,7 +89,7 @@ export default function Project({
           src={imageUrl}
           alt="Project I worked on"
           quality={95}
-          className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
+          className="sm:absolute  block sm:top-8 sm:-right-40 w-[fit]  sm:w-[28.25rem] rounded-t-lg shadow-2xl
         transition 
         group-hover:scale-[1.04]
         group-hover:-translate-x-3
@@ -104,5 +104,5 @@ export default function Project({
         />
       </section>
     </motion.div>
-  )
+  );
 }

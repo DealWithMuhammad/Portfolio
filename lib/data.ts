@@ -1,6 +1,7 @@
 import React from "react";
 import { FaReact } from "react-icons/fa";
 import { FaVuejs } from "react-icons/fa";
+import { SiNextdotjs } from "react-icons/si";
 import { LuGraduationCap } from "react-icons/lu";
 import rubicGameImage from "@/public/2048-game.png";
 import breadditImage from "@/public/breaddit.png";
@@ -9,6 +10,10 @@ import typingSpeedImage from "@/public/typing-speed.png";
 import refugeeActImage from "@/public/react.png"
 import emailImage from "@/public/email.png"
 import acternityImage from "@/public/acertnity.png"
+import { TbWorld } from "react-icons/tb";
+import { SiDotnet } from "react-icons/si";
+import { TbBrandFramerMotion } from "react-icons/tb";
+import { FaWordpress } from "react-icons/fa6";
 
 export const links = [
     {
@@ -47,44 +52,53 @@ export const headerLanguageMap = {
 }
 
 export const experiencesData = [
+ 
     {
-        title: "MSc in Computing and IT",
-        location: "University of St Andrews, UK",
+        title: "Web Developer Role at Refugee Action for Change",
+        location: "Remote",
         description:
-            "Achieved a Master's degree in Computing and IT, acquiring in-depth knowledge in areas such as Human Computer Interaction, Computer Communication Systems, and Information Security. Developed strong capabilities in computational thinking, user-centred design, and data visualisation, preparing for effective application in technology-driven environments",
-        icon: React.createElement(LuGraduationCap),
-        date: "2023 Sep - 2024 May",
+            "Developed Refugee Action for Change (ReAct) NGO's website utilizing Next.js technology. Focused on user-friendly design and accessibility, ensuring information accessibility for all stakeholders. Created a small CMS panel where admin can make small changes like change image and text etc.",
+        icon: React.createElement(TbWorld),
+        date: "Jan 2024 - 2024 April",
+    },
+        {
+        title: "Create Stunning Landing Page",
+        location: "Remote",
+        description:
+            "Recently crafted a visually engaging landing page for a Fiverr client using Next.js, featuring seamless animations powered by the Acertinty UI library.",
+        icon: React.createElement(SiNextdotjs),
+        date: "May 2024 - 2024 May",
+    },
+
+     {
+        title: "FitPlus App",
+        location: "Remote | Fiverr",
+        description:
+            "Developed a fitness app for a client in React Native within 48 hours, featuring a calorie counting section and user authentication with Firebase. Successfully implemented a secure login system with Firebase database integration to store user details.",
+        icon: React.createElement(FaReact),
+        date: "2024 Feb - 2024 Feb",
     },
     {
-        title: "Frontend Intern",
+        title: "Freelance ASP.NET Developer ",
         location: React.createElement("span", {},
             React.createElement("a", {
-                href: "https://www.nio.com/",
                 style: { textDecoration: 'underline' },
                 target: "_blank"
-            }, "NIO Inc."),
-            " Wuhan, China"
+            }, "Telcan Inc."),
+            " Remote"
         ),
         description:
-            "Developed NIO's third-generation station list and detail pages using Vue3, TypeScript, and Baidu Maps API. Implemented role-based access control for the Task Wizard page, enhancing system security. Collaborated effectively within a Jira-managed environment, utilizing Jenkins for deployment processes.",
-        icon: React.createElement(FaVuejs),
-        date: "2022 Aug - 2022 Dec",
+            "Successfully diagnosed and resolved critical bugs in an existing ASP.NET project, enhancing the application's stability and functionality.\n Collaborated with the client to understand specific SQL Server permission requirements and implemented granular access controls to enhance data security and integrity. Provided clear and concise documentation to facilitate the client's understanding of the implemented SQL permissions, enabling them to manage permissions effectively in the future.",
+        icon: React.createElement(SiDotnet),
+        date: "Mar 2023 - 2023 July",
     },
+   
     {
-        title: "Frontend Assistant",
-        location: "Wuhan University | Wuhan, China",
-        description:
-            "Developed and maintained Finknow, a Financial Knowledge Graph Query and Analysis Platform using umi (React framework) and Ant Design Pro. Utilized graphin, a React toolkit for graph analysis based on G6, to develop an Equity Network Penetration Graph, enhancing data visualization capabilities.",
-        icon: React.createElement(FaReact),
-        date: "2022 May - 2022 July",
-    },
-    {
-        title: "BA in Digital Publishing",
-        location: "Wuhan University, China",
-        description:
-            "Graduated with a Bachelor of Arts in Digital Publishing, securing a GPA of 3.81/4.0. Gained foundational knowledge in digital media and publishing technologies.",
-        icon: React.createElement(LuGraduationCap),
-        date: "2019 Sep - 2023 Jun",
+        title: "WordPress Website",
+        location: "Remote",
+        description:"It was my first ever project made for a client. I developed a customized real estate website for the client using WordPress as the content management system. Leveraged the RealEstate plugin to enhance property listing functionality, enabling the client to showcase properties efficiently. Implemented responsive web design principles to ensure seamless user experiences across various devices, resulting in improved user engagement.",
+        icon: React.createElement(FaWordpress),
+        date: "2021 Dec - 2022 Jan",
     },
 
 ]
