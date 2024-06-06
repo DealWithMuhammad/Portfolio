@@ -7,6 +7,9 @@ import acternityImage from "@/public/acertnity.png"
 import { TbWorld } from "react-icons/tb";
 import { SiDotnet } from "react-icons/si";
 import { FaWordpress } from "react-icons/fa6";
+import glbImage from "@/public/glb.png"
+import flowImage from "@/public/flowrise.png"
+import appleImage from "@/public/apple.png"
 
 export const links = [
     {
@@ -112,6 +115,16 @@ export const projectsData = [
         projectUrl: 'https://github.com/DealWithMuhammad/react-NGO',
         demoUrl: 'https://www.reactmalaysia.org/',
     },
+               {
+        title: "Flowrise",
+        title_zh: "社交新闻论坛",
+        description: 'Flowrise is a dynamic website built with Prismic, allowing clients and teams to modify content without writing code. The website utilizes the concept of "slices" for easy content management.',
+        desc_zh: "一个现代化的全栈Reddit克隆",
+        tags: ["Next.js", "Prismic", "Tailwind",],
+        imageUrl: flowImage,
+        projectUrl: 'https://github.com/DealWithMuhammad/n-InnerPeacePortal',
+        demoUrl: 'https://n-inner-peace-portal.vercel.app/',
+    },
     {
         title: "Palazzo Altura",
         title_zh: '游戏枢纽站',
@@ -124,7 +137,29 @@ export const projectsData = [
 
 
     },
-    {
+
+      {
+        title: "GLB Dashboard",
+        title_zh: "社交新闻论坛",
+        description: 'I created a school dashboard using Next.js to make things easier for teachers and students. Teachers can add students, give assignments, and keep track of everything in one place. The dashboard has a calendar to help with scheduling and shows students grades and all their information. My aim was to build a simple and helpful tool to make school management better for everyone.',
+        desc_zh: "一个现代化的全栈Reddit克隆",
+        tags: ["Next.js", "Chakra UI", "Tailwind", "Next UI","Firebase"],
+        imageUrl: glbImage,
+        projectUrl: 'https://github.com/DealWithMuhammad/GLB-Dashboard',
+        demoUrl: 'https://glb-dashboard.vercel.app/ ',
+    },
+         {
+        title: "Apple Clone",
+        title_zh: "社交新闻论坛",
+        description: 'The main objective of this site is to provide users with the ability to add items or products to their basket and seamlessly place orders through the checkout page, facilitating card payments.  This server-side rendered web application boasts a visually stunning user interface, enhancing the overall experience for visitors.',
+        desc_zh: "一个现代化的全栈Reddit克隆",
+        tags: ["Next.js", "Stripe", "Tailwind", "MUI","Sanity", "Redux"],
+        imageUrl: appleImage,
+        projectUrl: 'https://github.com/DealWithMuhammad/AppleClone',
+        demoUrl: 'https://appleclone-beta.vercel.app/',
+    },
+   
+                  {
         title: "Py-gmail Automation",
         title_zh: "社交新闻论坛",
         description: 'Automate Interac e-Transfer extraction from Gmail using Python. Retrieve details, process, and store in a MariaDB database. Simple setup and usage. Efficient tracking of Interac transactions.',
