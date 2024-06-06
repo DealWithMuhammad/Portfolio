@@ -31,9 +31,9 @@ export default function About() {
             know anything about coding, and I hadn&#39;t used a computer or
             laptop much in my life up until then. I had used them, but not
             extensively enough to become proficient. One of my cousins is a{" "}
-            <span className="font-medium italic">Software Developer</span>
-            so I asked him what I should learn. He told me to learn HTML. I
-            taught myself HTML from{" "}
+            <span className="font-medium italic">Software Developer</span> so I
+            asked him what I should learn. He told me to learn HTML. I taught
+            myself HTML from{" "}
             <span className="italic underline">
               <a href="https://www.w3schools.com/">W3Schools</a>
             </span>{" "}
