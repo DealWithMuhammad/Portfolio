@@ -1,18 +1,11 @@
 import React from "react";
 import { FaReact } from "react-icons/fa";
-import { FaVuejs } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
-import { LuGraduationCap } from "react-icons/lu";
-import rubicGameImage from "@/public/2048-game.png";
-import breadditImage from "@/public/breaddit.png";
-import gameHubImage from "@/public/game-hub.png";
-import typingSpeedImage from "@/public/typing-speed.png";
 import refugeeActImage from "@/public/react.png"
 import emailImage from "@/public/email.png"
 import acternityImage from "@/public/acertnity.png"
 import { TbWorld } from "react-icons/tb";
 import { SiDotnet } from "react-icons/si";
-import { TbBrandFramerMotion } from "react-icons/tb";
 import { FaWordpress } from "react-icons/fa6";
 
 export const links = [
