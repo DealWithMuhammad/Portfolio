@@ -153,5 +153,6 @@ export const skillsData = [
     "Boostrap",
     "Firebase",
     "Framer Motion",
+    "C langauge",
     "Wordpress"
 ] 

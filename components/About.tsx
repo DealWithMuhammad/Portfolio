@@ -27,61 +27,44 @@ export default function About() {
       ) : (
         <>
           <p className="mb-3">
-            My journey into programming kicked off during my undergrad in
-            <span className="font-medium italic">
-              {" "}
-              Digital Publishing
-            </span> at {}
+            My journey in coding started when I was 15 years old. I didn't know
+            anything about coding, and I hadn't used a computer or laptop much
+            in my life up until then. I had used them, but not extensively
+            enough to become proficient. One of my cousins is a{" "}
+            <span className="font-medium italic">Software Developer</span>
+            so I asked him what I should learn. He told me to learn HTML. I
+            taught myself HTML from{" "}
             <span className="italic underline">
-              <a
-                href="https://en.wikipedia.org/wiki/Wuhan_University"
-                target="_blank"
-              >
-                Wuhan University.
-              </a>
+              <a href="https://www.w3schools.com/">W3Schools</a>
             </span>{" "}
-            As a freshman, I got my feet wet with the basics of computer
-            science, databases, and Python. But what truly sparked my passion
-            was a course on semantic publishing—there, I used HTML and CSS to
-            create a webpage dedicated to my favorite figure skater,{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/Yuzuru_Hanyu"
-              target="_blank"
-              className="italic underline"
-            >
-              Yuzuru Hanyu.{" "}
-            </a>
-            This experience opened my eyes to the charm of web development———
+            and then learned CSS and after that I was like: ———
             <span className="font-medium italic">
               literally, you can build anything you envision with code.
             </span>
           </p>
-
           <p className="mb-3">
-            I sharpened my front-end development skills through internships at
-            Internships at Wuhan University&apos;s Big Data Institute and later
-            at{" "}
-            <span className="italic underline">
-              <a href="https://www.nio.com/careers" target="_blank">
-                {" "}
-                NIO Inc.
-              </a>
-            </span>{" "}
-            Working closely with developers, designers, testers, and product
-            managers, I loved the buzz of a team pulling together to make our
-            product better. And there’s nothing quite like the thrill of seeing
-            my own code being used by thousands—it’s what solidified my decision
-            to pursue a career in front-end development.
+            I created my first project, which involved uploading all the school
+            books so that students who didn't have the books could access them
+            on my website. One of my friends told me that I had done a great
+            job, which gave me more motivation and increased my interest in the
+            field of programming and I also sharpened my front-end development
+            skills.
           </p>
-
           <p className="mb-3">
-            I’m now doing my Masters in
-            <span className="font-medium italic"> Computing and IT</span> at the{" "}
+            I recently joined{" "}
             <span className="italic underline">
-              <a href="https://www.st-andrews.ac.uk/" target="_blank">
-                University of St Andrews.{" "}
-              </a>
+              <a href="https://42kl.edu.my/" target="_blank">
+                Sunway 42KL
+              </a>{" "}
             </span>
+            , where we only do coding. The projects at 42KL are all related to
+            the C language. There is only Peer to Peer study so I got Working
+            closely with developers, designers, testers, together to make our
+            projects better. I'm currently working on the Core program there,
+            and after that, I plan to pursue a bachelor's degree in computer
+            science also from 42KL.
+          </p>
+          <p className="mb-3">
             I thrive on programming challenges and enjoy working with teams to
             solve complex problems. I specialize in technologies such as
             <span className="font-medium italic">
@@ -89,21 +72,21 @@ export default function About() {
               React, React Naitve and Next.js
             </span>
             , and have a solid understanding of{" "}
-            <span className="font-medium italic">
-              JavaScript, TypeScript and HTML/CSS
-            </span>
+            <span className="font-medium italic">JavaScript, and HTML/CSS</span>
             .{" "}
           </p>
-
           <p>
             In my spare time, I enjoy exploring new technologies and building
-            interesting projects. I also run my social media accounts on
-            platforms like Bilibili and Xiaohongshu, where I share tech tips and
-            tricks. And when I’m not at the computer, you’ll find me
+            interesting projects. I also teach coding to some students for free,
+            where I share all my knowledge with them. As{" "}
+            <b>Margaret Fuller said:</b>{" "}
+            <span className="font-medium italic underline">
+              &quot;If you have knowledge, let others light their candles in
+              it.&quot;
+            </span>{" "}
+            And when I’m not at the computer, you’ll find me{" "}
             <span className="font-medium italic">
-              {" "}
-              cooking up a storm, catching a movie, or keeping fit with regular
-              workouts.
+              going out, catching a movie, or keeping fit with regular workouts.
             </span>
           </p>
         </>
