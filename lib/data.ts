@@ -10,6 +10,8 @@ import { FaWordpress } from "react-icons/fa6";
 import glbImage from "@/public/glb.png"
 import flowImage from "@/public/flowrise.png"
 import appleImage from "@/public/apple.png"
+import { MdOutlineWorkHistory } from "react-icons/md";
+import { FaChalkboardTeacher } from "react-icons/fa";
 
 export const links = [
     {
@@ -48,6 +50,22 @@ export const headerLanguageMap = {
 }
 
 export const experiencesData = [
+     {
+        title: "Web App Developer Internship",
+        location: "Raion Technology | Remote",
+        description:
+            "Developing a Seamless CRM on Next.JS, main purpose of the CRM is to connect employees with other companies.",
+        icon: React.createElement(MdOutlineWorkHistory),
+        date: "August 2024 - Present",
+    },
+         {
+        title: "Teacher Assistant",
+        location: "Fugee school | On-Site",
+        description:
+            "Preparing students for Google Workspace exam which include all the google tools like Google Sheet, Google Docs, Google Slides, Drive, and Gmail.",
+        icon: React.createElement(FaChalkboardTeacher),
+        date: "July 2024 - Present",
+    },
  
     {
         title: "Web Developer Role at Refugee Action for Change",
@@ -68,7 +86,7 @@ export const experiencesData = [
 
      {
         title: "FitPlus App",
-        location: "Remote | Fiverr",
+        location: "Fiverr | Remote",
         description:
             "Developed a fitness app for a client in React Native within 48 hours, featuring a calorie counting section and user authentication with Firebase. Successfully implemented a secure login system with Firebase database integration to store user details.",
         icon: React.createElement(FaReact),
