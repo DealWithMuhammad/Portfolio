@@ -64,7 +64,7 @@ export const experiencesData = [
         description:
             "Preparing students for Google Workspace exam which include all the google tools like Google Sheet, Google Docs, Google Slides, Drive, and Gmail.",
         icon: React.createElement(FaChalkboardTeacher),
-        date: "July 2024 - Present",
+        date: "July 2024 - August 2024",
     },
  
     {
