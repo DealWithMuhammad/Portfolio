@@ -78,7 +78,7 @@ export default function Intro() {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
+          className="col-span-8 place-self-center text-center sm:text-left justify-center"
         >
           <h1 className="text-center text-4xl font-bold tracking-tight  sm:text-5xl">
             {t("name")}

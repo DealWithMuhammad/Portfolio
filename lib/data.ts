@@ -56,7 +56,7 @@ export const experiencesData = [
         description:
             "Developing a Seamless CRM on Next.JS, main purpose of the CRM is to connect employees with other companies.",
         icon: React.createElement(MdOutlineWorkHistory),
-        date: "August 2024 - Present",
+        date: "August 2024 - 31 January 2025",
     },
          {
         title: "Teacher Assistant",
@@ -198,11 +198,12 @@ export const skillsData = [
     "TypeScript",
     "React",
     "React Native",
-    "Next",
+    "Next Js",
     "Git",
     "Github",
     "Tailwind",
     "Chakra UI",
+    "Next UI (Hero UI)",
     "Boostrap",
     "Firebase",
     "Framer Motion",
