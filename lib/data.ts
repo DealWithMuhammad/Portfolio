@@ -2,6 +2,7 @@ import React from "react";
 import { FaReact } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
 import refugeeActImage from "@/public/react.png"
+import raionImage from "@/public/raion.png"
 import emailImage from "@/public/email.png"
 import acternityImage from "@/public/acertnity.png"
 import { TbWorld } from "react-icons/tb";
@@ -50,15 +51,19 @@ export const headerLanguageMap = {
 }
 
 export const experiencesData = [
-     {
+    {
         title: "Web App Developer Internship",
         location: "Raion Technology | Remote",
         description:
-            "Developing a Seamless CRM on Next.JS, main purpose of the CRM is to connect employees with other companies.",
-        icon: React.createElement(MdOutlineWorkHistory),
+            "Developed a responsive data management dashboard using Next.js, TypeScript, and NextUI, featuring:\n\n" +
+            "Implemented dynamic grid-based table with drag-and-drop functionality, customizable layouts, and mobile-first responsive design using card-based views.\n\n" +
+            "Built comprehensive lead management system with CSV/Excel import/export, CRUD operations, and automated contact tracking.\n\n" +
+            "Designed custom UI components including theme switcher, global search, and multi-workspace support.\n\n" +
+            "Integrated API endpoints for data operations and user permissions, utilizing custom hooks for state management.",
+        icon: React.createElement(MdOutlineWorkHistory),    
         date: "August 2024 - 31 January 2025",
     },
-         {
+    {
         title: "Teacher Assistant",
         location: "Fugee school | On-Site",
         description:
@@ -66,7 +71,6 @@ export const experiencesData = [
         icon: React.createElement(FaChalkboardTeacher),
         date: "July 2024 - August 2024",
     },
- 
     {
         title: "Web Developer Role at Refugee Action for Change",
         location: "Remote",
@@ -75,7 +79,7 @@ export const experiencesData = [
         icon: React.createElement(TbWorld),
         date: "Jan 2024 - 2024 April",
     },
-        {
+    {
         title: "Create Stunning Landing Page",
         location: "Remote",
         description:
@@ -83,8 +87,7 @@ export const experiencesData = [
         icon: React.createElement(SiNextdotjs),
         date: "May 2024 - 2024 May",
     },
-
-     {
+    {
         title: "FitPlus App",
         location: "Fiverr | Remote",
         description:
@@ -93,7 +96,7 @@ export const experiencesData = [
         date: "2024 Feb - 2024 Feb",
     },
     {
-        title: "Freelance ASP.NET Developer ",
+        title: "Freelance ASP.NET Developer",
         location: React.createElement("span", {},
             React.createElement("a", {
                 style: { textDecoration: 'underline' },
@@ -106,23 +109,30 @@ export const experiencesData = [
         icon: React.createElement(SiDotnet),
         date: "Mar 2023 - 2023 July",
     },
-   
     {
         title: "WordPress Website",
         location: "Remote",
-        description:"It was my first ever project made for a client. I developed a customized real estate website for the client using WordPress as the content management system. Leveraged the RealEstate plugin to enhance property listing functionality, enabling the client to showcase properties efficiently. Implemented responsive web design principles to ensure seamless user experiences across various devices, resulting in improved user engagement.",
+        description: "It was my first ever project made for a client. I developed a customized real estate website for the client using WordPress as the content management system. Leveraged the RealEstate plugin to enhance property listing functionality, enabling the client to showcase properties efficiently. Implemented responsive web design principles to ensure seamless user experiences across various devices, resulting in improved user engagement.",
         icon: React.createElement(FaWordpress),
         date: "2021 Dec - 2022 Jan",
     },
-
-]
-
+];
 
 
 
 export type ProjectTags = typeof projectsData[number]["tags"];
 
 export const projectsData = [
+       {
+        title: "Raion Hub",
+        title_zh: '',
+        description: "Developed a comprehensive data management dashboard with a dynamic grid-based table system with drag-and-drop functionality, and mobile-responsive design. Implemented CRUD operations, data import/export, and lead management features including automated contact tracking and multi-workspace support.",
+        desc_zh: ". ",
+        tags: ["Next.Js", "TypeScript", "Tailwind", 'Next UI', "REST API"],
+        imageUrl: raionImage,
+       
+        demoUrl: 'https://hub.raiontech.io/login',
+    },
     {
         title: "Refugee Action for Change",
         title_zh: '',

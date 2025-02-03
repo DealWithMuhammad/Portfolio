@@ -9,7 +9,9 @@ import Link from "next/link";
 import { FiExternalLink } from "react-icons/fi";
 import { useLocale } from "next-intl";
 
-type ProjectProps = (typeof projectsData)[number];
+type ProjectProps = (typeof projectsData)[number] & {
+  projectUrl?: string;
+};
 
 export default function Project({
   title,
@@ -30,6 +32,16 @@ export default function Project({
   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
   const activeLocale = useLocale();
 
+  // Function to replace \n with <br /> tags
+  const formatDescription = (text: string) => {
+    return text.split("\n").map((line, index) => (
+      <span key={index}>
+        {line}
+        <br />
+      </span>
+    ));
+  };
+
   return (
     <motion.div
       ref={ref}
@@ -47,16 +59,16 @@ export default function Project({
             </h3>
 
             <div className="flex gap-3 text-sm text-gray-500 dark:text-gray-300">
-              {" "}
-              <Link
-                href={projectUrl}
-                target="_blank"
-                className="w-full flex items-center gap-1  hover:underline underline-offset-2"
-              >
-                <span className="break-keep">Code</span>
-
-                <FaGithubSquare className="w-5 h-5" />
-              </Link>
+              {projectUrl && (
+                <Link
+                  href={projectUrl}
+                  target="_blank"
+                  className="w-full flex items-center gap-1  hover:underline underline-offset-2"
+                >
+                  <span className="break-keep">Code</span>
+                  <FaGithubSquare className="w-5 h-5" />
+                </Link>
+              )}
               {demoUrl && (
                 <Link
                   href={demoUrl}
@@ -71,7 +83,9 @@ export default function Project({
           </div>
 
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
-            {activeLocale === "zh" ? desc_zh : description}
+            {activeLocale === "zh"
+              ? formatDescription(desc_zh)
+              : formatDescription(description)}
           </p>
           <ul className="flex flex-wrap mt-auto gap-2">
             {tags.map((tag, index) => (
