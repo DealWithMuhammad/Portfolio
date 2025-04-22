@@ -3,6 +3,9 @@ import { FaReact } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
 import refugeeActImage from "@/public/react.png"
 import raionImage from "@/public/raion.png"
+import WOM from "@/public/WOM.png"
+import ELS from "@/public/ELS.png"
+
 
 import mka from "@/public/mka.png"
 import emailImage from "@/public/email.png"
@@ -126,6 +129,16 @@ export type ProjectTags = typeof projectsData[number]["tags"];
 
 export const projectsData = [
        {
+        title: "WOM",
+        title_zh: '',
+        description: "Developed a cross-platform mobile application focused on sharing food experiences. Users can post meals from restaurants or home-cooked dishes, engage with others through likes, comments, shares, and follows. The app also features location-based food search, wishlist functionality, and a personalized feed for discovering nearby food posts.",
+        desc_zh: ". ",
+        tags: ["React Native", "Supabase", "Tailwind", 'Gluestack UI', "Clerk Authentication"],
+        imageUrl: WOM,
+       
+        demoUrl: '',
+    },
+     {
         title: "MKA Tajneed",
         title_zh: '',
         description: "Developed a crm to shows the live progress of different Majalis towards their targets, such as participation, donations, or departmental goals. It was developed to motivate Khuddam, encourage healthy competition, and help leaders quickly track performance across the country.",
@@ -134,6 +147,16 @@ export const projectsData = [
         imageUrl: mka,
        
         demoUrl: 'https://mka-khuddam.vercel.app/',
+    },
+      {
+        title: "Elsystem - School Website",
+        title_zh: '',
+        description: "Designed and developed ELS, a modern educational website aimed at improving the digital presence of schools and institutions. The site provides easy access to information about the school, academic programs, events, and announcements.",
+        desc_zh: ". ",
+        tags: ["Next.Js", "TypeScript", "Tailwind", 'Hero UI', "Shadcn UI"],
+        imageUrl: ELS,
+       
+        demoUrl: 'elsystem.org',
     },
        {
         title: "Raion Hub",
