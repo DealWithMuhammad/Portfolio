@@ -3,6 +3,8 @@ import { FaReact } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
 import refugeeActImage from "@/public/react.png"
 import raionImage from "@/public/raion.png"
+
+import mka from "@/public/mka.png"
 import emailImage from "@/public/email.png"
 import acternityImage from "@/public/acertnity.png"
 import { TbWorld } from "react-icons/tb";
@@ -123,6 +125,16 @@ export const experiencesData = [
 export type ProjectTags = typeof projectsData[number]["tags"];
 
 export const projectsData = [
+       {
+        title: "MKA Tajneed",
+        title_zh: '',
+        description: "Developed a crm to shows the live progress of different Majalis towards their targets, such as participation, donations, or departmental goals. It was developed to motivate Khuddam, encourage healthy competition, and help leaders quickly track performance across the country.",
+        desc_zh: ". ",
+        tags: ["Next.Js", "TypeScript", "Tailwind", 'Next UI', "Firebase"],
+        imageUrl: mka,
+       
+        demoUrl: 'https://mka-khuddam.vercel.app/',
+    },
        {
         title: "Raion Hub",
         title_zh: '',
